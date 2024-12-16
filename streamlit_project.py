@@ -5,7 +5,7 @@ import pandas as pd
 from mplsoccer import VerticalPitch
 
 st.title("Euros 2024 Shot Map")
-st.subheader("Filter to any tema/player to see any of their shots taken!")
+st.subheader("Filter to any team/player to see any of their shots taken!")
 
 df = pd.read_csv('euros_2024_shot_map.csv')
 
